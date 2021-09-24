@@ -1,0 +1,58 @@
+h1{
+    color: cadetblue;
+    font-family: cursive;
+    text-align: center;
+    
+    }
+    
+    h2{background-color: darkgoldenrod;
+    width: fit-content;
+    font-size: 30px;
+    font-family: sans-serif;}
+    
+    p{
+        color: lightseagreen;
+    }
+    
+    .destacados{
+        color: goldenrod;
+    }
+    
+    a{font-size: 20px;}
+    
+    a:hover{
+        background-color: lightslategray;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .caja{
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        border: 3px solid black;
+        padding: 10px;
+        text-align: center;
+        background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,4e4e4e+76,383838+87,0a0a0a+100,0d0d0d+100,010101+100,1b1b1b+100,010101+100 */
+        background: rgb(149,149,149); /* Old browsers */
+        background: -moz-linear-gradient(left,  rgba(149,149,149,1) 0%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(10,10,10,1) 100%, rgba(13,13,13,1) 100%, rgba(1,1,1,1) 100%, rgba(27,27,27,1) 100%, rgba(1,1,1,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgba(149,149,149,1) 0%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(10,10,10,1) 100%,rgba(13,13,13,1) 100%,rgba(1,1,1,1) 100%,rgba(27,27,27,1) 100%,rgba(1,1,1,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  rgba(149,149,149,1) 0%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(10,10,10,1) 100%,rgba(13,13,13,1) 100%,rgba(1,1,1,1) 100%,rgba(27,27,27,1) 100%,rgba(1,1,1,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#010101',GradientType=1 ); /* IE6-9 */;
+        box-shadow: 0px 0 20px black;
+        border-radius: 10px;
+
+    }
+
+    .texto{
+        width: 1100px;
+        column-count: 3;
+        column-gap: 30px;
+        text-align: justify;
+    }
+        
+    .texto p{
+        margin: 0px;
+    }
+        
+    
